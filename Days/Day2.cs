@@ -75,7 +75,6 @@ namespace AdventOfCode24.Days
                 }
             }
 
-            // ERROR answer is too high
             Console.WriteLine($"[Day 2 - Part 2]\nvalid reports = {validReports}");
         }
 
