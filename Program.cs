@@ -14,7 +14,8 @@ namespace AdventOfCode24
             //new Day1().Run();
             //new Day2().Run();
             //new Day3().Run();
-            new Day4().Run();
+            //new Day4().Run();
+            new Day5().Run();
 
             Console.Read();
         }
