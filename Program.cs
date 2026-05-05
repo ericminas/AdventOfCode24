@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+using System.IO;
 namespace AdventOfCode24
 {
     internal class Program
@@ -15,7 +17,10 @@ namespace AdventOfCode24
             //new Day2().Run();
             //new Day3().Run();
             //new Day4().Run();
-            new Day5().Run();
+            //new Day5().Run();
+            new Day6().Run();
+
+
 
             Console.Read();
         }
