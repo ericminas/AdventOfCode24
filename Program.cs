@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 
 using System.IO;
+using AdventOfCode24.Days.Day7;
 namespace AdventOfCode24
 {
     internal class Program
@@ -18,7 +19,8 @@ namespace AdventOfCode24
             //new Day3().Run();
             //new Day4().Run();
             //new Day5().Run();
-            new Day6().Run();
+            //new Day6().Run();
+            new Day7().Run();
 
 
 

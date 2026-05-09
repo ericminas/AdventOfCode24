@@ -49,11 +49,24 @@
     <Compile Include="Days\Day1.cs" />
     <Compile Include="Days\Day5.cs" />
     <Compile Include="Days\Day6.cs" />
+    <Compile Include="Days\Day7\Day7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".csproj" />
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Days\Day7\ExampleInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Days\Day7\ManualTesting.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Days\Day7\PuzzleInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
